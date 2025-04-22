@@ -1,6 +1,6 @@
 /github
 
-.gitignore
+/.gitignore
 
-main.class
-Message.class
+/main.class
+/Message.class
