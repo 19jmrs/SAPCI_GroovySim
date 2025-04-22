@@ -1,3 +1,6 @@
 /github
 
 .gitignore
+
+main.class
+Message.class
