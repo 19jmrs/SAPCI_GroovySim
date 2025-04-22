@@ -3,6 +3,10 @@ class Message {
     def headers = [:]
     def properties = [:]
 
+    def getHeader(String key) {
+        return headers[key]
+    }
+
     def Map getHeaders(){
         return headers
     }
@@ -16,7 +20,10 @@ class Message {
         return properties
     }
     
-    // Added method to set a property with key-value pair
+    def getProperty(String key){
+        return properties[key]
+    }
+    
     def setProperty(String key, String value) {
         properties[key] = value
         return this

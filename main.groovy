@@ -22,7 +22,8 @@ def processData(Message message) {
     println "Body: " + body + "\n"
     def oldHeader = message.getHeaders().get("oldHeader")
     println "Header: " + oldHeader + "\n"
-    
+    def oldProperty = message.getProperty("oldProperty")
+    println "Property: " + oldProperty + "\n"
 
     return message
 }
