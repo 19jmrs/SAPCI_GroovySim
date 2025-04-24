@@ -19,7 +19,7 @@ class Message {
     def Map getProperties(){
         return properties
     }
-    
+
     def getProperty(String key){
         return properties[key]
     }
