@@ -2,5 +2,11 @@
 
 /.gitignore
 
-/main.class
-/Message.class
+main.class
+Message.class
+
+SB_ME.groovy
+
+filter.groovy
+
+testData.xml
